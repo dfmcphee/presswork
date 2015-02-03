@@ -6,6 +6,7 @@ Default - A simple starting point for any theme.
 
 Contrast - A more stylized preset, with a dark header and footer.
 
+Contrast - A more colourful preset, with a bright header and footer.
 
 ## TypeKit Settings
 To enable custom webfonts from TypeKit, go into the theme settings and set the following:
