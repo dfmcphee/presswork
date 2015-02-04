@@ -125,10 +125,21 @@ $radius: 3px;
 
 /*================ Typography ================*/
 
-$headerFontStack: "{{ settings.typekit_header_font }}", Helvetica, sans-serif;
+$headerFontStack: "{{ settings.typekit_header_font }}";
+@if $headerFontStack == '' {
+  $headerFontStack: "Helvetica Neue", Helvetica, sans-serif;
+} @else {
+  $headerFontStack: "{{ settings.typekit_header_font }}", Helvetica, sans-serif;
+}
 $headerFontWeight: 700;
 
-$bodyFontStack: "{{ settings.typekit_body_font }}", Helvetica, sans-serif;
+$bodyFontStack: "{{ settings.typekit_body_font }}";
+@if $bodyFontStack == '' {
+  $bodyFontStack: "Helvetica Neue", Helvetica, sans-serif;
+} @else {
+  $bodyFontStack: "{{ settings.typekit_body_font }}", Helvetica, sans-serif;
+}
+
 $baseFontSize: 14px; // Henseforth known as 1em
 
 @font-face {
