@@ -2,13 +2,23 @@
 A custom Shopify theme based on [Timber](http://shopify.github.io/Timber/).
 
 ## Theme Presets
-Default - A simple starting point for any theme.
+
+### Default
+
+A simple starting point for any theme.
+
 ![Default Preview](https://s3.amazonaws.com/presswork/default.jpg)
 
-Contrast - A more stylized preset, with a dark header and footer.
+### Contrast
+
+A more stylized preset, with a dark header and footer.
+
 ![Contrast Preview](https://s3.amazonaws.com/presswork/contrast.jpg)
 
-Bright - A more colourful preset, with a bright header and footer.
+### Bright
+
+A more colourful preset, with a bright header and footer.
+
 ![Bright Preview](https://s3.amazonaws.com/presswork/bright.jpg)
 
 ## TypeKit Settings
